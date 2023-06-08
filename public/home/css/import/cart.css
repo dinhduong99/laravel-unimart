@@ -1,0 +1,179 @@
+/*RESET BOOTSTRAP*/
+.table{ margin-bottom: 0!important;}
+.table thead{ border-top: 1px solid #ddd;}
+.table>tfoot>tr>td{ border-top: none!important;}
+.table tbody{ background: #fff;}
+
+/*CART*/
+.cart-page{ font-family: 'Roboto Regular';}
+.cart-page #main-content .section:nth-child(2){ padding-top: 0!important;}
+.cart-page #main-content{
+    width: 100%!important;
+    padding-right: 0!important;
+}
+#info-cart-wp table {
+    width: 100%;
+}
+#info-cart-wp table tr td{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+#info-cart-wp table thead tr td{
+    font-size: 15px;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 18px 25px;
+    color: #333;
+    background: #f1f1f1;
+    border: 0;
+}
+#info-cart-wp table tbody tr td{
+    color: #222;
+    padding: 10px 0px;
+}
+#info-cart-wp table tbody tr td .name-product,#info-cart-wp table tbody tr td .stt,#info-cart-wp table tbody tr td .price,#info-cart-wp table tbody tr td .del-product{
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+}
+#info-cart-wp table tbody tr td a.name-product:hover{
+    color: #288ad6;
+}
+#info-cart-wp table tbody tr td .del-product:hover{
+    background-color: #f12a43;
+    color: white;
+    cursor: pointer;
+}
+#info-cart-wp table tbody tr td .del-product{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+#info-cart-wp table tbody tr td .thumb{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.section-detail #buy-more
+{ 
+    margin-right: 5px;
+    border: none;
+    outline: none;
+    background: #3f5da6;
+    color: #fff;
+    text-decoration: none !important;
+}
+
+.section-detail #delete-cart
+{ 
+    border: none;
+    outline: none;
+    background: #3f5da6;
+    color: #fff;
+    text-decoration: none !important;
+}
+#checkout-cart,#update-cart,.section-detail #delete-cart,.section-detail #buy-more{
+    display: inline-block;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Roboto Bold';
+    font-weight: normal;
+    border-radius: 3px;
+}
+#checkout-cart{
+    border: none;
+    outline: none;
+    background: #3f5da6;
+    color: #fff;
+}
+#update-cart{
+    color: #333;
+    background: #ececec;
+    margin-right: 5px;
+    border: 1px solid #d6d6d6;
+  
+}
+#update-cart:hover{ background: #dadada;}
+#checkout-cart:hover,.section-detail #buy-more:hover,.section-detail #delete-cart:hover{ background: #2b478c;}
+#cart-wp table tfoot tr td #action-cart a:nth-child(2){ margin-right: 0;}
+#total-price{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 25px 0px 20px 0px;
+}
+#total-price span{
+    color: #ad0000;
+    font-family: 'Roboto Medium';
+}
+#action-cart-wp{ margin-top: 30px;}
+#action-cart-wp .title{ margin-bottom: 10px; line-height: 24px;}
+#action-cart-wp .section-detail .title span{
+    font-family: 'Roboto Medium';
+    font-weight: normal;
+}
+#action-cart-wp a{
+    display: inline-block;
+    /* color: #006cbb; */
+    line-height: 21px;
+    text-decoration: underline!important;
+}
+
+#info-cart-wp table tfoot tr td{ padding: 0px;}
+.table>tbody>tr>th, .table>tbody>tr>td{ border-bottom: 1px solid #ddd;}
+
+/* Cart respon */
+#info-cart-respon-wp{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+#info-cart-respon-wp .section-detail .detail{
+   display: flex;
+   align-items: center;
+   padding: 20px 0px;
+   border-bottom: 1px solid #ebebeb;
+}
+#info-cart-respon-wp .section-detail a.thumb{
+    /* width: 120px; */
+    flex-basis: 20%;
+    padding: 10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+#info-cart-respon-wp .infor-product .price{
+    display: block;
+}
+#info-cart-respon-wp .right-product{
+    position: relative;
+    /* width: 200px; */
+    flex-basis: 30%;
+}
+#info-cart-respon-wp .infor-product{
+    position: relative;
+    /* width: 200px; */
+    flex-basis: 50%;
+}
+#info-cart-respon-wp .right-product .sub-total{
+    display: block;
+    padding: 5px;
+    position: absolute;
+   top: 10px;
+    right: 0;
+}
+#info-cart-respon-wp .right-product .del-product{
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    right: 0;
+}
